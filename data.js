@@ -108,14 +108,26 @@ const accomplishments = {
 			{
 				title: "Site Portfolio Dynamique",
 				description: "Site web responsive avec animations CSS3, galerie interactive et formulaire de contact.",
-				dir: "",
+				dir: "2/",
 				fas: "globe",
 				medias: [
 					{
 						type: "image",
-						name: "realisation_web.png",
-						title: "Page d'accueil",
-						description: "Site portfolio moderne développé avec HTML5, CSS3 et JavaScript vanilla. Design responsive, animations fluides, système de navigation dynamique et optimisation SEO complète."
+						name: "1.jpg",
+						title: "Section Compétences",
+						description: "Site portfolio moderne développé avec HTML5, CSS3 et JavaScript. Design responsive, animations fluides, système de navigation dynamique."
+					},
+					{
+						type: "image",
+						name: "2.jpg",
+						title: "Section Réalisations",
+						description: "",
+					},
+					{
+						type: "image",
+						name: "3.jpg",
+						title: "Section Services",
+						description: "",
 					},
 					{
 						type: "code",
@@ -124,13 +136,51 @@ const accomplishments = {
 						description: "Utilisation avancée de CSS Grid, Flexbox et animations keyframes pour créer une expérience utilisateur exceptionnelle.",
 						fab: "css3-alt",
 					},
+				],
+				techStacks: [
+					"HTML5",
+					"CSS3",
+					"JavaScript",
+					"Responsive"
+				]
+			},
+			{
+				title: "Site de projet FORCE",
+				description: "Site web responsive avec animations CSS3, galerie interactive et formulaire de contact.",
+				dir: "1/",
+				fas: "globe",
+				medias: [
 					{
 						type: "image",
-						name: "realisation_web.png",
-						title: "Version mobile",
-						description: "Design parfaitement adaptatif avec menu hamburger, navigation tactile optimisée et performance mobile excellente.",
-						fas: "mobile-alt",
-					}
+						name: "1.jpg",
+						title: "Page d'accueil",
+						description: "Site moderne développé avec HTML5, CSS3 et JavaScript. Design responsive, animations fluides, système de navigation dynamique."
+					},
+					{
+						type: "image",
+						name: "2.jpg",
+						title: "Ecran Galerie",
+						description: "",
+					},
+					{
+						type: "image",
+						name: "3.jpg",
+						title: "Ecran Téléchargements",
+						description: "",
+					},
+					{
+						type: "image",
+						name: "4.jpg",
+						title: "Ecran de contats",
+						description: "",
+					},
+					{
+						type: "code",
+						name: "styles.css",
+						title: "Code CSS",
+						description: "Utilisation avancée de CSS Grid, Flexbox et animations keyframes pour créer une expérience utilisateur exceptionnelle.",
+						fab: "css3-alt",
+					},
 				],
 				techStacks: [
 					"HTML5",
@@ -178,13 +228,6 @@ const accomplishments = {
 						title: "Maquette finalisée",
 						description: "",
 					},
-					{
-						type: "code",
-						name: "main.ino",
-						title: "Code Arduino",
-						description: "Programmation ESP32 avec gestion des capteurs, communication WiFi et serveur web intégré pour l'interface de contrôle.",
-						fas: "microchip",
-					}
 				],
 				techStacks: [
 					"ESP32",
@@ -205,77 +248,30 @@ const accomplishments = {
 						title: "En action",
 						description: "Détection automatique de la présence de main et ouverture du robinet ..."
 					},
+					{
+						type: "image",
+						name: "1.jpg",
+						title: "Présentation de la lave-main à la mairie",
+						description: "",
+					},
+					{
+						type: "image",
+						name: "2.jpg",
+						title: "Présentation de la lave-main à la mairie",
+						description: "",
+					},
+					{
+						type: "image",
+						name: "3.jpg",
+						title: "Présentation de la lave-main à la mairie",
+						description: "",
+					},
 				],
 				techStacks: [
 					"Arduino",
 					"Capteurs",
 					"Servomoteurs",
 					"ESP32-CAM"
-				]
-			}
-		]
-	},
-	python: {
-		title: "Scripts Python",
-		description: "Scripts Python",
-		dir: "source/accomplishment/python/",
-		tags: ["Python", "Automatisation", "Data"],
-		banner: "source/python script.jpg",
-		accomplishments: [
-			{
-				title: "Analyseur de Données",
-				description: "Script d'analyse automatique de données avec visualisations et rapports PDF.",
-				dir: "",
-				fab: "python",
-				medias: [
-					{
-						type: "image",
-						name: "python script.jpg",
-						title: "Visualisations",
-						description: "Script Python d'analyse de données utilisant Pandas, Matplotlib et Seaborn pour créer des visualisations interactives et générer automatiquement des rapports PDF détaillés.",
-						fas: "chart-bar",
-					},
-					{
-						type: "code",
-						name: "analyzer.py",
-						title: "Code Python",
-						description: "Utilisation avancée de bibliothèques scientifiques Python pour le traitement, l'analyse statistique et la visualisation de grandes quantités de données.",
-						fab: "python"
-					},
-					{
-						type: "image",
-						name: "python script.jpg",
-						title: "Rapport généré",
-						description: "Rapport PDF automatiquement généré avec graphiques, statistiques et recommandations basées sur l'analyse des données.",
-						fas: "file-pdf",
-					}
-				],
-				techStacks: [
-					"Python",
-					"Pandas",
-					"Matplotlib",
-					"ReportLab"
-				]
-			},
-			{
-				title: "Outil d'Automatisation",
-				description: "Script d'automatisation de tâches répétitives avec interface graphique Tkinter.",
-				dir: "",
-				fas: "sync-alt",
-				medias: [
-					{
-						type: "image",
-						name: "python script.jpg",
-						title: "Interface graphique",
-						description: "Application desktop Python avec Tkinter pour automatiser des tâches répétitives : organisation de fichiers, renommage en masse, sauvegarde automatique et planification de tâches.",
-						fas: "desktop",
-					},
-				],
-				techStacks: [
-					"Python",
-					"Tkinter",
-					"Schedule",
-					"OS"
 				]
 			}
 		]
@@ -332,53 +328,10 @@ const accomplishments = {
 				techStacks: [
 					"Excel",
 					"VBA",
-					"Power Query",
-					"Pivot Tables"
+					"Condition",
+					"Source externe"
 				]
 			}
 		]
 	},
-	formation: {
-		title: "Formations",
-		description: "Formations ...",
-		dir: "source/accomplishment/formation/",
-		tags: ["Pédagogie", "E-learning", "Multimédia"],
-		banner: "source/formation.png",
-		accomplishments: [
-			{
-				title: "Programme Bureautique",
-				description: "Formation complète en bureautique avec supports de cours et exercices pratiques.",
-				dir: "",
-				fas: "chalkboard-teacher",
-				medias: [
-					{
-						type: "image",
-						name: "formation.png",
-						title: "Session de formation",
-						description: "Programme de formation bureautique complet incluant Word, Excel, PowerPoint avec supports pédagogiques interactifs, exercices pratiques et évaluations personnalisées.",
-						fas: "users",
-					},/*
-					{
-						type: "video",
-						name: "training-demo.mp4",
-						title: "Aperçu cours",
-						description: "Extrait d'un cours de formation montrant la méthodologie pédagogique et l'interaction avec les apprenants.",
-					},*/
-					{
-						type: "image",
-						name: "formation.png",
-						title: "Supports de cours",
-						description: "Matériel pédagogique développé incluant guides étape par étape, exercices progressifs et ressources complémentaires.",
-						fas: "book",
-					}
-				],
-				techStacks: [
-					"Pédagogie",
-					"Microsoft Office",
-					"E-learning",
-					"Évaluation"
-				]
-			}
-		]
-	}
 }
