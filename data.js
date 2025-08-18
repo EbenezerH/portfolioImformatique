@@ -96,6 +96,265 @@ const accomplishments = {
 					"Provider"
 				]
 			},
+			{
+				title: "Covid-19 Real-time info",
+				description: "Appli fournissant les statistiques sur la Covid-19 par pays en temps réel",
+				dir: "3/",
+				fab: "flutter",
+				medias: [
+					{
+						type: "image",
+						name: "1.jpg",
+						title: "Liste des pays",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "2.jpg",
+						title: "Statisques en tant réel",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "3.jpg",
+						title: "Statisques en tant réel",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "4.jpg",
+						title: "Statisques en tant réel",
+						description: ""
+					},
+					{
+						type: "code",
+						name: "main.dart",
+						title: "Code Dart",
+						description: "Exemple de code Dart montrant l'architecture MVVM et l'utilisation de Provider pour la gestion d'état.",
+						fas: "code",
+					}
+				],
+				techStacks: [
+					"Flutter",
+					"Dart",
+					"API REST",
+				]
+			},
+			{
+				title: "Jeux Plus ou moins",
+				description: "Jeux de devinette d'un nombre caché",
+				dir: "4/",
+				fab: "flutter",
+				medias: [
+					{
+						type: "image",
+						name: "1.jpg",
+						title: "Accueil",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "2.jpg",
+						title: "Ecran jeu",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "3.jpg",
+						title: "Ecran jeu",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "4.jpg",
+						title: "Ecran fin du jeu",
+						description: ""
+					},
+					{
+						type: "code",
+						name: "main.dart",
+						title: "Code Dart",
+						description: "Exemple de code Dart montrant l'architecture MVVM et l'utilisation de Provider pour la gestion d'état.",
+						fas: "code",
+					}
+				],
+				techStacks: [
+					"Flutter",
+					"Dart",
+					"SharedPreferences",
+				]
+			},
+			{
+				title: "Bible et Lecteur biblique",
+				description: "Calendrier de Lecture de la bible et bible plusieurs versions française",
+				dir: "5/",
+				fab: "flutter",
+				medias: [
+					{
+						type: "image",
+						name: "1.png",
+						title: "Accueil",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "2.png",
+						title: "bible",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "3.png",
+						title: "Calendrier de lecture",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "4.png",
+						title: "paramètres",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "5.png",
+						title: "sélection de passages bibliques",
+						description: ""
+					},
+					{
+						type: "code",
+						name: "main.dart",
+						title: "Code Dart",
+						description: "Exemple de code Dart montrant l'architecture MVVM et l'utilisation de Provider pour la gestion d'état.",
+						fas: "code",
+					}
+				],
+				techStacks: [
+					"Flutter",
+					"Dart",
+					"Provider",
+				]
+			},
+			{
+				title: "TradSigne",
+				description: "Application de traduction et de chat intégrant le langage des signes",
+				dir: "6/",
+				fab: "flutter",
+				medias: [
+					{
+						type: "image",
+						name: "1.png",
+						title: "creation de compte",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "2.png",
+						title: "Ecran de traduction",
+						description: "traduction de signes en français"
+					},
+					{
+						type: "image",
+						name: "3.png",
+						title: "Ecran de traduction",
+						description: "traduction de français en signes"
+					},
+					{
+						type: "image",
+						name: "4.png",
+						title: "Développement de l'appli",
+						description: ""
+					},
+					{
+						type: "code",
+						name: "main.dart",
+						title: "Code Dart",
+						description: "Exemple de code Dart montrant l'architecture MVVM et l'utilisation de Provider pour la gestion d'état.",
+						fas: "code",
+					}
+				],
+				techStacks: [
+					"Flutter",
+					"Dart",
+					"Sql",
+				]
+			},
+			{
+				title: "DomoBen",
+				description: "Appli IoT pour controler des lampes connectées via bluetouth",
+				dir: "7/",
+				fab: "flutter",
+				medias: [
+					{
+						type: "image",
+						name: "1.jpg",
+						title: "Ecran d'accueil",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "2.jpg",
+						title: "Ecran d'accueil",
+						description: ""
+					},
+					{
+						type: "code",
+						name: "main.dart",
+						title: "Code Dart",
+						description: "Exemple de code Dart montrant l'architecture MVVM et l'utilisation de Provider pour la gestion d'état.",
+						fas: "code",
+					}
+				],
+				techStacks: [
+					"Flutter",
+					"Dart",
+					"API REST",
+				]
+			},
+			{
+				title: "SocialMark",
+				description: "Application de Marketing Social : création, publication des campagnes de marketing social",
+				dir: "8/",
+				fab: "flutter",
+				medias: [
+					{
+						type: "image",
+						name: "1.jpg",
+						title: "Ecran de connexion",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "2.jpg",
+						title: "Ecran principal",
+						description: "Liste des campgnes marketing social en cours"
+					},
+					{
+						type: "image",
+						name: "3.jpg",
+						title: "Contenu d'un campagne",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "4.jpg",
+						title: "Profil utilisateur",
+						description: "Cas d'un Administrateur"
+					},
+					{
+						type: "code",
+						name: "main.dart",
+						title: "Code Dart",
+						description: "Exemple de code Dart montrant l'architecture MVVM et l'utilisation de Provider pour la gestion d'état.",
+						fas: "code",
+					}
+				],
+				techStacks: [
+					"Flutter",
+					"Dart",
+					"Firebase",
+					"Provider"
+				]
+			},
 		]
 	},
 	web: {
