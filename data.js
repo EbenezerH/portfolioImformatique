@@ -113,19 +113,19 @@ const accomplishments = {
 				medias: [
 					{
 						type: "image",
-						name: "1.jpg",
+						name: "1.JPG",
 						title: "Section Compétences",
 						description: "Site portfolio moderne développé avec HTML5, CSS3 et JavaScript. Design responsive, animations fluides, système de navigation dynamique."
 					},
 					{
 						type: "image",
-						name: "2.jpg",
+						name: "2.JPG",
 						title: "Section Réalisations",
 						description: "",
 					},
 					{
 						type: "image",
-						name: "3.jpg",
+						name: "3.JPG",
 						title: "Section Services",
 						description: "",
 					},
@@ -152,7 +152,7 @@ const accomplishments = {
 				medias: [
 					{
 						type: "image",
-						name: "1.jpg",
+						name: "1.JPG",
 						title: "Page d'accueil",
 						description: "Site moderne développé avec HTML5, CSS3 et JavaScript. Design responsive, animations fluides, système de navigation dynamique."
 					},
