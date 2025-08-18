@@ -32,50 +32,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	}
 
 	// Créer le carousel
-	/*function createCarousel() {
-		carouselTrack.innerHTML = '';
-		carouselIndicators.innerHTML = '';
-	    
-		mediaData.forEach((media, index) => {
-			// Créer la slide
-			const slide = document.createElement('div');
-			slide.className = 'carousel-slide';
-		    
-			if (media.type === 'image') {
-				slide.innerHTML = `<img src="${media.src}" alt="${media.title}">`;
-			} else if (media.type === 'video') {
-				slide.innerHTML = `<video controls><source src="${media.src}" type="video/mp4"></video>`;
-			} else if (media.type === 'code') {
-					slide.innerHTML = `
-<div class="code-display">
-	<div class="code-header">
-		<i class="fas fa-code"></i>
-		<span>${media.title}</span>
-	</div>
-	<pre><code>// Exemple de code
-	// Ce fichier contient la logique principale
-	// Pour voir le code complet, contactez-moi
-
-	function example() {
-		console.log("Code example");
-		// ... Plus de code disponible sur demande
-	}</code></pre>
-</div>`;
-			}
-		    
-			carouselTrack.appendChild(slide);
-		    
-			// Créer l'indicateur
-			const indicator = document.createElement('div');
-			indicator.className = `indicator ${index === 0 ? 'active' : ''}`;
-			indicator.addEventListener('click', () => goToSlide(index));
-			carouselIndicators.appendChild(indicator);
-		});
-	    
-		updateMediaDescription();
-	}*/
-
-	// Créer le carousel
 	function createCarousel(mediasData) {
 		carouselTrack.innerHTML = '';
 		carouselIndicators.innerHTML = '';
@@ -101,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             `;
 			} else if (media.type === 'youtube') {
 				slide.innerHTML = `
-                <iframe width="100%" height="315"
+                <iframe width="100%" height="100%"
                     src="${actualSrc}"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
