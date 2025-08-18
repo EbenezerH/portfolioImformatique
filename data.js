@@ -158,20 +158,20 @@ const accomplishments = {
 					},
 					{
 						type: "image",
-						name: "2.jpg",
+						name: "2.JPG",
 						title: "Ecran Galerie",
 						description: "",
 					},
 					{
 						type: "image",
-						name: "3.jpg",
+						name: "3.png",
 						title: "Ecran Téléchargements",
 						description: "",
 					},
 					{
 						type: "image",
-						name: "4.jpg",
-						title: "Ecran de contats",
+						name: "4.JPG",
+						title: "Ecran de contacts",
 						description: "",
 					},
 					{
