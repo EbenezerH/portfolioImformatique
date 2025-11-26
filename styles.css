@@ -88,15 +88,23 @@ nav.scrolled {
 }
 
 /* Hero Section */
+
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #0d1117 0%, #21262d 100%);
+    background-image: url("source/accomplishment/flutter/6/4.png");
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
 }
-
+.hero::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.7); /* assombrit l'image */
+}
 .hero::before {
     content: '';
     position: absolute;

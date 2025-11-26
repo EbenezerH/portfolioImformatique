@@ -8,9 +8,9 @@ const accomplishments = {
 		accomplishments: [
 			{
 				title: "Application de Gestion des contacts",
-				description: "Application mobile permettant de mettre à jour les contacts (Ajoute 01 au début des numéros du Bénin pour s'adapter au passage à 10 chiffres).",
+				description: "Application mobile permettant de mettre à jour les contacts (Ajoute 01 au début des numéros du Bénin pour s'adapter au passage à 10 chiffres). Type de projet : Volontariat",
 				dir: "1/",
-				fab: "flutter",
+				fas: "mobile",
 				medias: [
 					{
 						type: "image",
@@ -53,9 +53,9 @@ const accomplishments = {
 			},
 			{
 				title: "Real Time Sale",
-				description: "Application de boulangerie : gestion de la livraison de pains en temps réel",
+				description: "Application de boulangerie : gestion de la livraison de pains en temps réel. Client : Boulangérie Gloire à Dieu",
 				dir: "2/",
-				fab: "flutter",
+				fas: "mobile",
 				medias: [
 					{
 						type: "image",
@@ -98,9 +98,9 @@ const accomplishments = {
 			},
 			{
 				title: "Covid-19 Real-time info",
-				description: "Appli fournissant les statistiques sur la Covid-19 par pays en temps réel",
+				description: "Appli fournissant les statistiques sur la Covid-19 par pays en temps réel. Type de projet : Volontariat",
 				dir: "3/",
-				fab: "flutter",
+				fas: "mobile",
 				medias: [
 					{
 						type: "image",
@@ -142,9 +142,9 @@ const accomplishments = {
 			},
 			{
 				title: "Jeux Plus ou moins",
-				description: "Jeux de devinette d'un nombre caché",
+				description: "Jeux de devinette d'un nombre caché. Type de projet : Apprentissage",
 				dir: "4/",
-				fab: "flutter",
+				fas: "mobile",
 				medias: [
 					{
 						type: "image",
@@ -186,9 +186,9 @@ const accomplishments = {
 			},
 			{
 				title: "Bible et Lecteur biblique",
-				description: "Calendrier de Lecture de la bible et bible plusieurs versions française",
+				description: "Calendrier de Lecture de la bible et bible plusieurs versions française. Type de projet : Personnel - Volontariat",
 				dir: "5/",
-				fab: "flutter",
+				fas: "mobile",
 				medias: [
 					{
 						type: "image",
@@ -236,9 +236,9 @@ const accomplishments = {
 			},
 			{
 				title: "TradSigne",
-				description: "Application de traduction et de chat intégrant le langage des signes",
+				description: "Application de traduction et de chat intégrant le langage des signes. Type de projet : Apprentissage - Stage",
 				dir: "6/",
-				fab: "flutter",
+				fas: "mobile",
 				medias: [
 					{
 						type: "image",
@@ -280,9 +280,9 @@ const accomplishments = {
 			},
 			{
 				title: "DomoBen",
-				description: "Appli IoT pour controler des lampes connectées via bluetouth",
+				description: "Appli IoT pour controler des lampes connectées via bluetouth. Type de projet : Personnel - projet IoT",
 				dir: "7/",
-				fab: "flutter",
+				fas: "mobile",
 				medias: [
 					{
 						type: "image",
@@ -312,9 +312,9 @@ const accomplishments = {
 			},
 			{
 				title: "SocialMark",
-				description: "Application de Marketing Social : création, publication des campagnes de marketing social",
+				description: "Application de Marketing Social : création, publication des campagnes de marketing social. Cliente : Etudiante en Master pour soutenance",
 				dir: "8/",
-				fab: "flutter",
+				fas: "mobile",
 				medias: [
 					{
 						type: "image",
@@ -339,6 +339,51 @@ const accomplishments = {
 						name: "4.jpg",
 						title: "Profil utilisateur",
 						description: "Cas d'un Administrateur"
+					},
+					{
+						type: "code",
+						name: "main.dart",
+						title: "Code Dart",
+						description: "Exemple de code Dart montrant l'architecture MVVM et l'utilisation de Provider pour la gestion d'état.",
+						fas: "code",
+					}
+				],
+				techStacks: [
+					"Flutter",
+					"Dart",
+					"Firebase",
+					"Provider"
+				]
+			},
+			{
+				title: "Cantique goun",
+				description: "Application présentant les versions numériques des cantiques d'une communauté chrétienne : Recherche intuitive, filtre, historique, fovoris, etc... Client : Eglise Apostolique du Bénin - District Anagbo",
+				dir: "9/",
+				fas: "mobile",
+				medias: [
+					{
+						type: "image",
+						name: "1.jpg",
+						title: "Ecran d'Accueil",
+						description: "Liste des cantiques"
+					},
+					{
+						type: "image",
+						name: "2.jpg",
+						title: "Ecran d'affichage d'un cantique",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "3.jpg",
+						title: "Paramètres",
+						description: ""
+					},
+					{
+						type: "image",
+						name: "4.jpg",
+						title: "Favoris",
+						description: "En mode sombre"
 					},
 					{
 						type: "code",
@@ -461,7 +506,7 @@ const accomplishments = {
 				title: "Feu de signalisation intelligent",
 				description: "Conception et réalisation d'une maquette de feux de signalisation intelligents, permettant une gestion plus optimisée des intersections.",
 				dir: "2/",
-				fas: "microchip",
+				fas: "robot",
 				medias: [
 					{
 						type: "youtube",
